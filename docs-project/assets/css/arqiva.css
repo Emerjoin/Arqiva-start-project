@@ -1,0 +1,132 @@
+
+.topic-row{
+
+    'width: 60%;
+    'margin: 0 auto;
+    'margin-bottom: 90px !important;
+    'margin-top: 45px !important;
+
+}
+
+#topics-tree{
+
+    margin-top: 20px;
+
+
+}
+
+#topics-tree ul{
+
+    list-style: none;
+
+}
+
+ul {
+
+    padding-left: 15px !important;
+
+}
+
+
+a{
+    color: #666 !important;
+    font-size: 15px;
+
+}
+
+
+.topic-active{
+
+    font-weight: bold !important;
+
+}
+
+
+.bottom-buttons{
+
+    margin: 0 auto;
+    bottom: 90px !important;
+
+}
+
+.btn-direction {
+    position: relative;
+    margin-bottom: 85px;
+
+}
+
+.btn-previous{
+    margin-left: 10px;
+}
+
+.btn-next{
+    margin-right: 10px;
+}
+
+
+.btn-get-started-container{
+
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 40px !important;
+
+
+}
+
+.btn-get-started{
+
+    font-size: 27px;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.topic h1{
+
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 0.3em;
+    line-height: 1.25;
+    margin-bottom: 16px
+
+}
+
+.topic p{
+
+    font-size: 20px !important;
+
+}
+
+#c{
+    position: fixed !important;
+    bottom: 0px;
+    width: 100%;
+
+}
+
+pre {
+
+   border:none;
+   border-radius: 0px !important;
+
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}
